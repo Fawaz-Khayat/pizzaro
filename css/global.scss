@@ -1,0 +1,14 @@
+.wrapper {
+  display:grid;
+  grid-template-columns: repeat(12, 70px);
+  grid-gap: 30px;
+  width:1170px;
+  margin: 0 auto;
+}
+
+header  {
+  background-color: blue;
+  grid-template-columns: 12;
+  height: 100px;
+  grid-column: 1/13;
+}

@@ -1,0 +1,20 @@
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (70px)[12];
+      grid-template-columns: repeat(12, 70px);
+  grid-gap: 30px;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: blue;
+  -ms-grid-columns: 12;
+      grid-template-columns: 12;
+  height: 100px;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-column: 1/13;
+}
+/*# sourceMappingURL=global.css.map */
