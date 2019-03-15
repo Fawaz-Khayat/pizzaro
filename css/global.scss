@@ -8,11 +8,36 @@
 
 header {
   background-color: red;
+  height: 56px;
+  
+  h1 {
+    display: none;
+  }
+
+  img.logo, li, img.scooter, h4, div {
+    float: left;
+  }
+
+  li {
+    color: white;
+  }
+  
+  div span {
+    color:white;
+  }
+
+  #order-cart > img{
+    margin: 0 auto;
+  }
+  #scooter-order {
+    float: none;
+    height: 30px;
+    
+  }
+
 }
 
-header h1 {
-  display: none;
-}
+
 .banners, .products-tabs, #great-with {
   display: grid;
   grid-gap: 30px;

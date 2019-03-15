@@ -9,10 +9,32 @@
 
 header {
   background-color: red;
+  height: 56px;
 }
 
 header h1 {
   display: none;
+}
+
+header img.logo, header li, header img.scooter, header h4, header div {
+  float: left;
+}
+
+header li {
+  color: white;
+}
+
+header div span {
+  color: white;
+}
+
+header #order-cart > img {
+  margin: 0 auto;
+}
+
+header #scooter-order {
+  float: none;
+  height: 30px;
 }
 
 .banners, .products-tabs, #great-with {
