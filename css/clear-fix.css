@@ -1,0 +1,7 @@
+/** CLEAR FIX **/
+.clear-fix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+/***************/
