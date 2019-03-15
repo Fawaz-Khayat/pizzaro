@@ -61,4 +61,15 @@
 #great-with .great-with-product {
   height: 230px;
 }
+
+.insta-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.insta-picture {
+  height: 320px;
+  width: 320px;
+}
 /*# sourceMappingURL=global.css.map */
