@@ -1,5 +1,6 @@
 * {
   border: 1px solid grey;
+  font-family: "Open Sans", sans-serif;
 }
 
 .wrapper {
@@ -8,20 +9,21 @@
 }
 
 header {
-  background-color: red;
-  height: 56px;
+  background-color: #c00a27;
+  height: 68px;
 }
 
 header h1 {
   display: none;
 }
 
-header img.logo, header li, header img.scooter, header h4, header div {
+header img.logo, header li, header h4, header img.scooter, header div {
   float: left;
 }
 
 header li {
   color: white;
+  font-weight: bold;
 }
 
 header div span {
