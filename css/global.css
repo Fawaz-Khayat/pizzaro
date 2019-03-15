@@ -7,6 +7,14 @@
   margin: 0 auto;
 }
 
+header {
+  background-color: red;
+}
+
+header h1 {
+  display: none;
+}
+
 .banners, .products-tabs, #great-with {
   display: -ms-grid;
   display: grid;

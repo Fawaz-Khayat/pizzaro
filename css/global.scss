@@ -5,6 +5,14 @@
   max-width:1170px;
   margin: 0 auto;
 }
+
+header {
+  background-color: red;
+}
+
+header h1 {
+  display: none;
+}
 .banners, .products-tabs, #great-with {
   display: grid;
   grid-gap: 30px;
