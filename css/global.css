@@ -1,36 +1,96 @@
 * {
-  border: 1px solid grey;
   font-family: "Open Sans", sans-serif;
 }
 
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .wrapper {
+  display: block;
   max-width: 1170px;
+  width: 85%;
   margin: 0 auto;
 }
 
+/************** header *************/
 header {
   background-color: #c00a27;
-  height: 68px;
+  padding: 34px 0;
 }
 
-header h1 {
-  display: none;
-}
-
-header img.logo, header li, header h4, header img.scooter, header div {
+header img.logo, header li, header h4, header img.scooter, header .wrapper * {
   float: left;
 }
 
-header li {
-  color: white;
-  font-weight: bold;
+header .wrapper {
+  height: 68px;
 }
 
-header div span {
+header .wrapper > h1 {
+  display: none;
+}
+
+header .wrapper img.logo {
+  padding-right: 33px;
+}
+
+header .wrapper nav {
+  max-width: 470px;
+  width: 41%;
+}
+
+header .wrapper nav ul {
+  width: 100%;
+}
+
+header .wrapper nav ul li {
   color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px 24px;
+}
+
+header .wrapper #call-number div {
+  float: right;
+}
+
+header .wrapper #call-number div p {
+  color: #ffae00;
+  font-size: 14px;
+}
+
+header .wrapper #call-number div p span {
+  float: none;
+  color: white;
+}
+
+header .wrapper #call-number div img {
+  padding: 10px 5px 0 5px;
+}
+
+header .wrapper #call-number > p {
+  color: white;
+  font-family: "open sans extrabold";
+  font-size: 28px;
+  font-weight: bolder;
+  float: none;
+}
+
+header #order-cart {
+  background-color: #8ca93e;
+  border-radius: 40px;
+  height: 68px;
+  width: 225px;
 }
 
 header #order-cart > img {
+  display: block;
+  width: 133px;
   margin: 0 auto;
 }
 
@@ -39,6 +99,7 @@ header #scooter-order {
   height: 30px;
 }
 
+/****************** END header *************/
 .banners, .products-tabs, #great-with {
   display: -ms-grid;
   display: grid;

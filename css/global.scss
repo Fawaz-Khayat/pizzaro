@@ -1,34 +1,97 @@
 * {
-  border: 1px solid grey;
+  //border: 1px solid grey;
   font-family: "Open Sans", sans-serif;
 }
+
+li {
+  list-style-type:none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .wrapper {
+  display: block;
   max-width:1170px;
+  width: 85%;
   margin: 0 auto;
 }
 
+/************** header *************/
 header {
   background-color:rgb(192, 10, 39);
-  height: 68px;
-  
-  h1 {
-    display: none;
-  }
+  padding: 34px 0;
 
-  img.logo, li, h4, img.scooter, div {
+  img.logo, li, h4, img.scooter, .wrapper *  {
     float: left;
   }
 
-  li {
-    color: white;
-    font-weight: bold;
-  }
+  .wrapper {
+    height: 68px;
+    //padding: 40px 0;
+    > h1 {
+      display: none;
+    }
+
+    img.logo {
+      padding-right: 33px;
+    }
+
+    nav {
+      max-width: 470px;
+      width: 41%;
+
+      ul {
+        width: 100%;
+
+        li {
+          color: white;
+          font-size: 15px;
+          font-weight: bold;
+          padding: 15px 24px;
+        }
+      }
+    }
+
+    #call-number {
+      div {
+        float: right;
   
-  div span {
-    color:white;
+        p {
+          color:#ffae00;
+          font-size: 14px;
+          span {
+            float: none;
+            color: white;
+          }
+        }
+        
+        img {
+          padding:10px 5px 0 5px;
+        }
+      }
+  
+      > p {
+        color: white;
+        font-family: "open sans extrabold";
+        font-size: 28px;
+        font-weight: bolder;
+        float: none;
+      }
+      
+    }
   }
 
+  #order-cart {
+    background-color: rgb(140, 169, 62);
+    border-radius: 40px;
+    height: 68px;
+    width: 225px;
+  }
   #order-cart > img{
+    display: block;
+    width:133px;
     margin: 0 auto;
   }
   #scooter-order {
@@ -36,9 +99,8 @@ header {
     height: 30px;
     
   }
-
 }
-
+/****************** END header *************/
 
 .banners, .products-tabs, #great-with {
   display: grid;
