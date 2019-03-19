@@ -147,9 +147,16 @@ nav#food-menu {
 }
 
 /************* END food menu **************/
+/************* Slider *********************/ 
 .slider {
   float:none;
+  width:100%;
+  height: 645px;
+  background-color: #c00a27;
 }
+
+/************* END Slider ******************/
+
 .banners, .products-tabs, #great-with {
   display: grid;
   grid-gap: 30px;
