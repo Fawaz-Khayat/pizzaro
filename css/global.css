@@ -19,22 +19,23 @@ a {
 /************** header *************/
 header {
   background-color: #c00a27;
-  height: 136px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
-header img.logo, header li, header h4, header img.scooter, header .wrapper * {
+header img.logo, header li, header h4, header img.scooter, header #call-number, header #order-cart {
   float: left;
 }
 
 header .wrapper {
-  height: 136px;
+  min-height: 136px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   padding-top: 32px;
   padding-bottom: 49px;
   border-bottom: 1px solid blue;
-}
-
-header .wrapper > h1 {
-  display: none;
 }
 
 header .wrapper img.logo {
@@ -56,7 +57,7 @@ header .wrapper #call-number {
   padding: 8px 27px;
 }
 
-header .wrapper #call-number div {
+header .wrapper #call-number div img, header .wrapper #call-number div p {
   float: right;
 }
 
@@ -72,14 +73,15 @@ header .wrapper #call-number div p span {
 
 header .wrapper #call-number div img {
   padding: 10px 3px 0 5px;
+  float: right;
 }
 
-header .wrapper #call-number > p {
+header .wrapper #call-number p#number {
   color: white;
   font-family: "open sans extrabold";
   font-size: 28px;
   font-weight: bolder;
-  float: none;
+  clear: both;
 }
 
 header #order-cart {
@@ -96,8 +98,20 @@ header #order-cart > img {
 }
 
 header #scooter-order {
-  float: none;
   height: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  padding-top: 16px;
+}
+
+header #scooter-order h4 {
+  font-size: 14px;
+  font-family: "open sans extrabold";
+  color: white;
+  padding-left: 5px;
+  padding-bottom: 10px;
 }
 
 /****************** END header *************/
@@ -106,6 +120,7 @@ nav#food-menu {
   width: 100%;
   height: 100px;
   background-color: #c00a27;
+  clear: both;
 }
 
 nav#food-menu .wrapper {
