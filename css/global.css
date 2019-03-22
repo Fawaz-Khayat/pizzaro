@@ -10,11 +10,14 @@ a {
   text-decoration: none;
 }
 
+section {
+  clear: both;
+}
+
 .wrapper {
   display: block;
   max-width: 1170px;
   margin: 0 auto;
-  clear: both;
 }
 
 /************** header *************/
