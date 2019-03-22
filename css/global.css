@@ -200,6 +200,7 @@ nav#food-menu li a label {
 
 /**************END banners ***************/
 /************** Products tabs ************/
+/*********** tabs header **********************/
 #products-tabs-header {
   height: 95px;
 }
@@ -240,6 +241,32 @@ nav#food-menu li a label {
   padding-top: 20px;
 }
 
+/************* end of tabs header *********/
+/*********** product tabs ************/
+#products-tabs-section {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 36px 0;
+}
+
+#products-tabs-section .product-tab {
+  border: 1px solid grey;
+  float: left;
+  width: 360px;
+  height: 697px;
+  margin: 0 18px;
+}
+
+#products-tabs-section .product-tabfirst-of-type {
+  margin-left: 0;
+}
+
+#products-tabs-section .product-tab:last-of-type {
+  margin-right: 0;
+}
+
+/*********** end of product tabs *****/
 #great-with .great-with-product {
   height: 230px;
 }

@@ -192,6 +192,7 @@ nav#food-menu {
 }
 /**************END banners ***************/
 /************** Products tabs ************/
+/*********** tabs header **********************/
 #products-tabs-header {
   height: 95px;
   .wrapper {
@@ -229,6 +230,27 @@ nav#food-menu {
     
   }
 }
+/************* end of tabs header *********/
+/*********** product tabs ************/
+#products-tabs-section {
+  height: fit-content;
+  padding: 36px 0;
+  .product-tab {
+    border: 1px solid grey;
+    float: left;
+    width: 360px;
+    height: 697px;
+    margin: 0 18px;
+
+    &first-of-type {
+      margin-left: 0;
+    }
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
+/*********** end of product tabs *****/
 #great-with .great-with-product {
   height: 230px;
 }
