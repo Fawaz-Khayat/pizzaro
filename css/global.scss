@@ -1,6 +1,5 @@
 $images-dir : "../images/";
 * {
-  //border: 1px solid grey;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -22,7 +21,7 @@ section {
 }
 
 /************** header *************/
-header {
+#page-header {
   background-color:rgb(192, 10, 39);
   height: fit-content;
   img.logo, li, h4, img.scooter, #call-number, #order-cart  {
@@ -211,16 +210,19 @@ nav#food-menu {
   }
 }
 /**************END banners ***************/
-/************** Products tabs ************/
-/*********** tabs header **********************/
-#products-tabs-header {
-  height: 95px;
+/************** Products tabs section ************/
+#products-tabs-section {
+  height: 769px;
+  padding: 36px 0;
   .wrapper {
     height: 100%;
-    border-bottom: 1px solid rgb(233, 233, 233);
     text-align: center;
-    padding-top: 36px;
-
+  }
+/*********** tabs header **********************/
+#products-tabs-header {
+  height: 58px;
+  margin-bottom: 34px;
+  border-bottom: 1px solid rgb(233, 233, 233);
     > div {
       width: fit-content;
       margin: 0 auto;
@@ -244,17 +246,10 @@ nav#food-menu {
           padding-top: 20px;
         }
       }
-      
-      
     }
-    
   }
-}
 /************* end of tabs header *********/
 /*********** product tabs ************/
-#products-tabs-section {
-  height: 769px;
-  padding: 36px 0;
   .product-tab {
     border: 1px solid grey;
     float: left;
@@ -270,7 +265,7 @@ nav#food-menu {
     }
   }
 }
-/*********** end of product tabs *****/
+/*********** end of product tabs section *****/
 /********** Deal of the day **********/
 #deal-of-the-day {
   height:468px;
