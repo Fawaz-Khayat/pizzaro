@@ -1,3 +1,4 @@
+$images-dir : "../images/";
 * {
   //border: 1px solid grey;
   font-family: "Open Sans", sans-serif;
@@ -252,7 +253,7 @@ nav#food-menu {
 /************* end of tabs header *********/
 /*********** product tabs ************/
 #products-tabs-section {
-  height: fit-content;
+  height: 769px;
   padding: 36px 0;
   .product-tab {
     border: 1px solid grey;
@@ -270,6 +271,13 @@ nav#food-menu {
   }
 }
 /*********** end of product tabs *****/
+/********** Deal of the day **********/
+#deal-of-the-day {
+  height:468px;
+  background-image: url($images-dir + "dealOfTheDay-base.jpg");
+}
+
+/********** END deal of the day ******/
 #great-with .great-with-product {
   height: 230px;
 }

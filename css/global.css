@@ -270,9 +270,7 @@ nav#food-menu li a label {
 /************* end of tabs header *********/
 /*********** product tabs ************/
 #products-tabs-section {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: 769px;
   padding: 36px 0;
 }
 
@@ -293,6 +291,13 @@ nav#food-menu li a label {
 }
 
 /*********** end of product tabs *****/
+/********** Deal of the day **********/
+#deal-of-the-day {
+  height: 468px;
+  background-image: url("../images/dealOfTheDay-base.jpg");
+}
+
+/********** END deal of the day ******/
 #great-with .great-with-product {
   height: 230px;
 }
