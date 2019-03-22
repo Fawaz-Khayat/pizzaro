@@ -36,7 +36,7 @@ header .wrapper {
   height: fit-content;
   padding-top: 32px;
   padding-bottom: 49px;
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid #cb334b;
 }
 
 header .wrapper img.logo {
@@ -52,6 +52,14 @@ header .wrapper nav ul li {
   font-size: 15px;
   font-weight: bold;
   padding: 28px 23px;
+}
+
+header .wrapper nav ul li .under-line {
+  background: #ffae00;
+  height: 2px;
+  width: 42px;
+  margin: 0 auto;
+  margin-top: 8px;
 }
 
 header .wrapper #call-number {

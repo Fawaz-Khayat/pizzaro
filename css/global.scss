@@ -31,7 +31,7 @@ header {
     height: fit-content;
     padding-top: 32px;
     padding-bottom: 49px;
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid rgb(203, 51, 75);
     //padding: 40px 0;
 
     img.logo {
@@ -50,6 +50,14 @@ header {
           font-size: 15px;
           font-weight: bold;
           padding: 28px 23px;
+
+          .under-line {
+            background: #ffae00;
+            height: 2px;
+            width: 42px;
+            margin: 0 auto;
+            margin-top: 8px;
+          }
         }
       }
     }
