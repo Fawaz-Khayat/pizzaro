@@ -314,6 +314,24 @@ section#great-with {
       }
     }
     /********** END great-with header *****/
+    #great-with-products {
+      width: fit-content;
+      margin: 0 auto;
+
+      .great-with-product {
+      float: left;
+      width: 260px;
+      margin: 0 20px;
+      border: 1px solid grey;
+
+        &:first-of-type {
+          margin-left: 0;
+        }
+        &:last-of-type {
+          margin-right: 0;
+        }
+      }
+    }
   }
 }
 

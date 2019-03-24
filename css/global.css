@@ -346,6 +346,28 @@ section#great-with .wrapper header > div .selected-tab div {
   margin: 0 auto;
 }
 
+section#great-with .wrapper #great-with-products {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+section#great-with .wrapper #great-with-products .great-with-product {
+  float: left;
+  width: 260px;
+  margin: 0 20px;
+  border: 1px solid grey;
+}
+
+section#great-with .wrapper #great-with-products .great-with-product:first-of-type {
+  margin-left: 0;
+}
+
+section#great-with .wrapper #great-with-products .great-with-product:last-of-type {
+  margin-right: 0;
+}
+
 /********** END great-with section ***/
 .insta-gallery {
   display: -webkit-box;
