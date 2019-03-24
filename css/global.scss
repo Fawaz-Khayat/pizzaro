@@ -211,7 +211,7 @@ nav#food-menu {
 }
 /**************END banners ***************/
 /************** Products tabs section ************/
-#products-tabs-section {
+section#products-tabs {
   height: 855px;
   padding: 36px 0;
   .wrapper {
@@ -219,7 +219,7 @@ nav#food-menu {
     text-align: center;
   }
 /*********** tabs header **********************/
-#products-tabs-header {
+header {
   height: 50px;
   margin-bottom: 34px;
   border-bottom: 1px solid rgb(233, 233, 233);
@@ -234,7 +234,7 @@ nav#food-menu {
         line-height: 34px;
         padding: 0 30px;
       }
-      a.selected-tab {
+      .selected-tab {
         color: black;
         font-weight: bold;
 
@@ -247,7 +247,7 @@ nav#food-menu {
       }
     }
   }
-/************* end of tabs header *********/
+  /************* end of tabs header *********/
 /*********** product tabs ************/
   .product-tab {
     border: 1px solid grey;
@@ -272,9 +272,52 @@ nav#food-menu {
 }
 
 /********** END deal of the day ******/
-#great-with .great-with-product {
-  height: 230px;
+/********** great-with section ***************/
+section#great-with {
+  height: 712px;
+  padding-top: 0;
+  padding-bottom: 36px;
+
+  .wrapper {
+    height: 100%;
+    text-align: center;
+/*********** great-with header ***********/
+    header {
+      height: 50px;
+      margin-top: 73px;
+      margin-bottom: 73px;
+      border-bottom: 1px solid rgb(233, 233, 233);
+
+      > div {
+        width: fit-content;
+        margin: 0 auto;
+
+        h3 {
+          float: left;
+          font-weight: 100%;
+          font-size: 26px;
+          color: #9b959b;
+          line-height: 34px;
+          padding: 0 30px;
+        }
+        .selected-tab {
+          color: black;
+          font-weight: bold;
+
+          div{  
+            height: 15px;
+            width: 60px;
+            border-bottom: 3px solid #f0002f;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+    /********** END great-with header *****/
+  }
 }
+
+/********** END great-with section ***/
 
 .insta-gallery {
   display: flex;

@@ -226,7 +226,7 @@ nav#food-menu li a label {
 
 /**************END banners ***************/
 /************** Products tabs section ************/
-#products-tabs-section {
+section#products-tabs {
   height: 855px;
   padding: 36px 0;
   /*********** tabs header **********************/
@@ -234,25 +234,25 @@ nav#food-menu li a label {
   /*********** product tabs ************/
 }
 
-#products-tabs-section .wrapper {
+section#products-tabs .wrapper {
   height: 100%;
   text-align: center;
 }
 
-#products-tabs-section #products-tabs-header {
+section#products-tabs header {
   height: 50px;
   margin-bottom: 34px;
   border-bottom: 1px solid #e9e9e9;
 }
 
-#products-tabs-section #products-tabs-header > div {
+section#products-tabs header > div {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto;
 }
 
-#products-tabs-section #products-tabs-header > div a {
+section#products-tabs header > div a {
   float: left;
   font-weight: 100%;
   font-size: 26px;
@@ -261,19 +261,19 @@ nav#food-menu li a label {
   padding: 0 30px;
 }
 
-#products-tabs-section #products-tabs-header > div a.selected-tab {
+section#products-tabs header > div .selected-tab {
   color: black;
   font-weight: bold;
 }
 
-#products-tabs-section #products-tabs-header > div a.selected-tab div {
+section#products-tabs header > div .selected-tab div {
   height: 15px;
   width: 60px;
   border-bottom: 3px solid #f0002f;
   margin: 0 auto;
 }
 
-#products-tabs-section .product-tab {
+section#products-tabs .product-tab {
   border: 1px solid grey;
   float: left;
   width: 360px;
@@ -281,11 +281,11 @@ nav#food-menu li a label {
   margin: 0 18px;
 }
 
-#products-tabs-section .product-tabfirst-of-type {
+section#products-tabs .product-tabfirst-of-type {
   margin-left: 0;
 }
 
-#products-tabs-section .product-tab:last-of-type {
+section#products-tabs .product-tab:last-of-type {
   margin-right: 0;
 }
 
@@ -297,10 +297,56 @@ nav#food-menu li a label {
 }
 
 /********** END deal of the day ******/
-#great-with .great-with-product {
-  height: 230px;
+/********** great-with section ***************/
+section#great-with {
+  height: 712px;
+  padding-top: 0;
+  padding-bottom: 36px;
 }
 
+section#great-with .wrapper {
+  height: 100%;
+  text-align: center;
+  /*********** great-with header ***********/
+  /********** END great-with header *****/
+}
+
+section#great-with .wrapper header {
+  height: 50px;
+  margin-top: 73px;
+  margin-bottom: 73px;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+section#great-with .wrapper header > div {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+section#great-with .wrapper header > div h3 {
+  float: left;
+  font-weight: 100%;
+  font-size: 26px;
+  color: #9b959b;
+  line-height: 34px;
+  padding: 0 30px;
+}
+
+section#great-with .wrapper header > div .selected-tab {
+  color: black;
+  font-weight: bold;
+}
+
+section#great-with .wrapper header > div .selected-tab div {
+  height: 15px;
+  width: 60px;
+  border-bottom: 3px solid #f0002f;
+  margin: 0 auto;
+}
+
+/********** END great-with section ***/
 .insta-gallery {
   display: -webkit-box;
   display: -ms-flexbox;
