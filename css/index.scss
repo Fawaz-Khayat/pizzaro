@@ -1,6 +1,10 @@
 $images-dir : "../images/";
 
 .product-pick-size-block {
+
+  &:after {
+    content: none;
+  }
   text-align: center;
 
   h3 {

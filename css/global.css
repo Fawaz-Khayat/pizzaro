@@ -14,7 +14,7 @@ section, footer {
   clear: both;
 }
 
-section ::after, footer ::after {
+section:after, footer:after {
   content: "";
   clear: both;
   display: block;
