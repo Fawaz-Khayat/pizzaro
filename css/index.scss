@@ -486,9 +486,11 @@ section#features {
 
 /********** END features *************/
 .insta-gallery {
-  display: flex;
-}
-.insta-picture {
-  height: 320px;
-  width: 320px;
+  .wrapper {
+    max-width: 320px * 6;
+
+    img {
+      float: left;
+    }
+  }
 }

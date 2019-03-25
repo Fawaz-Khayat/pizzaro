@@ -522,14 +522,11 @@ section#features .feature p {
 }
 
 /********** END features *************/
-.insta-gallery {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.insta-gallery .wrapper {
+  max-width: 1920px;
 }
 
-.insta-picture {
-  height: 320px;
-  width: 320px;
+.insta-gallery .wrapper img {
+  float: left;
 }
 /*# sourceMappingURL=index.css.map */
