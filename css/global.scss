@@ -19,8 +19,13 @@ section, footer {
     display: block;
   }
 }
-.wrapper {
+.section-wrapper, .content-wrapper {
   display: block;
-  max-width:1170px;
   margin: 0 auto;
+}
+.section-wrapper {
+  max-width: 1170px;
+}
+.content-wrapper {
+  max-width: fit-content;
 }
