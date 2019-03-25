@@ -221,6 +221,10 @@ nav#food-menu {
 /************* END food menu **************/
 /************* Slider *********************/ 
 .slider {
+
+  .wrapper {
+    max-width: fit-content;
+  }
   float:none;
   width:100%;
   height: 645px;

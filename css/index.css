@@ -238,6 +238,12 @@ nav#food-menu li a label {
   background-color: #c00a27;
 }
 
+.slider .wrapper {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
 /************* END Slider ******************/
 /************* banners *********************/
 .banners {
