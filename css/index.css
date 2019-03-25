@@ -494,6 +494,40 @@ section#product-slider .wrapper .product-pick-size-block button p {
 }
 
 /**********END product-slider ********/
+/************ features ***************/
+section#features .feature {
+  float: left;
+  width: 198px;
+  text-align: center;
+  margin: 124px 48px 95px;
+}
+
+section#features .feature:first-of-type {
+  margin-left: 40px;
+}
+
+section#features .feature:last-of-type {
+  margin-right: 40px;
+}
+
+section#features .feature img {
+  margin-bottom: 43px;
+}
+
+section#features .feature h4 {
+  margin-bottom: 11px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2d2b2d;
+}
+
+section#features .feature p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #71706C;
+}
+
+/********** END features *************/
 .insta-gallery {
   display: -webkit-box;
   display: -ms-flexbox;

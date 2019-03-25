@@ -13,6 +13,11 @@ a {
 
 section {
   clear: both;
+  ::after {
+    content: "";
+    clear:both;
+    display: block;
+  }
 }
 .wrapper {
   display: block;
