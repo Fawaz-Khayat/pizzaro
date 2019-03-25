@@ -230,11 +230,47 @@ nav#food-menu li a label {
 
 /************* END food menu **************/
 /************* Slider *********************/
-.slider {
-  float: none;
+#slider {
   width: 100%;
-  height: 645px;
   background-color: #c00a27;
+}
+
+#slider .content-wrapper img {
+  padding: 146px 0 100px;
+}
+
+#slider .content-wrapper .slider-dots {
+  height: 42px;
+  width: 175px;
+  padding-bottom: 32px;
+}
+
+#slider .content-wrapper .slider-dots .active-slider, #slider .content-wrapper .slider-dots .slider-dot {
+  float: left;
+}
+
+#slider .content-wrapper .slider-dots .active-slider {
+  width: 35px;
+  height: 10px;
+  background-color: #f0002f;
+  border-radius: 25px;
+  margin-right: 18px;
+}
+
+#slider .content-wrapper .slider-dots .slider-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: white;
+  margin-right: 18px;
+}
+
+#slider .content-wrapper .slider-dots .slider-dot:hover {
+  cursor: pointer;
+}
+
+#slider .content-wrapper .slider-dots .slider-dot:last-of-type {
+  margin-right: 0;
 }
 
 /************* END Slider ******************/
