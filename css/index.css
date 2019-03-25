@@ -522,6 +522,7 @@ section#features .feature p {
 }
 
 /********** END features *************/
+/********** insta-gallery ************/
 .insta-gallery .wrapper {
   max-width: 1920px;
 }
@@ -529,4 +530,34 @@ section#features .feature p {
 .insta-gallery .wrapper img {
   float: left;
 }
+
+/********** END insta-gallery ********/
+/********** footer *******************/
+footer {
+  background-color: #2c2c2c;
+  padding-top: 90px;
+}
+
+footer #social-icons {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+footer #social-icons .social-icon {
+  width: 52px;
+  height: 52px;
+  border: solid 1px #818181;
+  border-radius: 100%;
+  float: left;
+  padding-top: 15px;
+}
+
+footer #social-icons .social-icon img {
+  display: block;
+  margin: auto auto;
+}
+
+/********** END footer ***************/
 /*# sourceMappingURL=index.css.map */
