@@ -279,12 +279,52 @@ nav#food-menu {
   #upper-right-banner-product,
   #bottom-banner-product {
     float: left;
+    position: relative;
   }
 
   #main-banner-product {
     width: 570px;
     height: 442px;
     margin-right: 15px;
+    color:white;
+
+    h2, h3, .badge, .subscript {
+      position: absolute;
+      left: 38px;
+    }
+
+    h2 {
+      top:53px;
+      font-family: "Yanone Kaffeesatz";
+      font-size: 80px;
+      font-weight: bold;
+    }
+
+    h3 {
+      top: 123px;
+      font-family: "Yanone Kaffeesatz extralight";
+      font-size: 42px;
+    }
+
+    .badge {
+      top:  178px;
+      width: 137px;
+      height: 43px;
+      border-radius: 10px;
+      background-color: #f0002f;
+
+      p {
+        font-family: "Yanone Kaffeesatz light";
+        font-size: 18px;
+        line-height: 9.22px;
+        padding-top: 16px;
+      }
+    }
+    .subscript {
+    top: 404px;
+    font-family: "Yanone Kaffeesatz";
+    font-size: 14px;
+    }
   }
   #upper-left-banner-product,
   #upper-right-banner-product {
