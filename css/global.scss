@@ -11,7 +11,7 @@ a {
   text-decoration: none;
 }
 
-section, footer {
+section, footer, .clear-fix {
   clear: both;
   &:after {
     content: "";
