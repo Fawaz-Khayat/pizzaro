@@ -2,6 +2,9 @@ $images-dir : "../images/";
 
 .product-pick-size-block, .great-with-pick-size-block {
 
+  display: block;
+  margin: 0 auto;
+
   &:after {
     content: none;
   }
@@ -43,6 +46,12 @@ $images-dir : "../images/";
     width: fit-content;
     margin: 0 auto;
 
+    &:after {
+      content: "";
+      clear:both;
+      display: block;
+    }
+
     .size, .price {
       float: left;
     }
@@ -83,7 +92,7 @@ $images-dir : "../images/";
 }
 .product-pick-size-block {
   width: 330px;
-  margin-left: 70px;
+  //margin-left: 70px;
 
   h3 {
     font-size: 24px;
@@ -114,7 +123,7 @@ $images-dir : "../images/";
     border-radius: 40px;
     border: 0;
     margin-top: 35px;
-    margin-bottom: 65px;
+    margin-bottom: 27px;
 
     img, p {
       float: left;
@@ -486,8 +495,8 @@ nav#food-menu {
 /**************END banners ***************/
 /************** Products tabs section ************/
 section#products-tabs {
-  height: 855px;
-  padding: 36px 0;
+  height: 916px;
+  padding: 36px 0 80px;
   .section-wrapper  {
     //height: 100%;
     text-align: center;
@@ -508,7 +517,7 @@ section#products-tabs {
         line-height: 34px;
         padding: 0 30px;
       }
-      .selected-tab {
+      .selected-tab-header {
         color: black;
         font-weight: bold;
 
@@ -529,14 +538,27 @@ section#products-tabs {
     width: 360px;
     //height: 697px;
     margin: 0 18px;
-  }
-  .product-tab, .product-pick-size-block {
+
     &:first-of-type {
     margin-left: 0;
     }
     &:last-of-type {
       margin-right: 0;
     }
+
+    .product-pick-size-block {
+      margin-top: 27px;
+
+      .pick-size {
+        div {
+          width:110px;
+        }
+      }
+    }
+  }
+
+  .selected-tab {
+    border: solid 4px rgb(233, 233, 233);
   }
 }
 /*********** end of product tabs section *****/
@@ -614,11 +636,13 @@ section#great-with {
 section#product-slider {
   height: 486px;
   width: 100%;
-  padding: 80px 0;
+  padding: 80px 0 70px;
   background-color: rgb(244, 242, 235);
 
   .section-wrapper  {
-
+    .product-pick-size-block {
+      margin-left: 70px;
+    }
   }
 }
 /**********END product-slider ********/

@@ -1,4 +1,6 @@
 .product-pick-size-block, .great-with-pick-size-block {
+  display: block;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -48,6 +50,12 @@
   margin: 0 auto;
 }
 
+.product-pick-size-block .size-price:after, .great-with-pick-size-block .size-price:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
 .product-pick-size-block .size-price .size, .product-pick-size-block .size-price .price, .great-with-pick-size-block .size-price .size, .great-with-pick-size-block .size-price .price {
   float: left;
 }
@@ -90,7 +98,6 @@
 
 .product-pick-size-block {
   width: 330px;
-  margin-left: 70px;
 }
 
 .product-pick-size-block h3 {
@@ -123,7 +130,7 @@
   border-radius: 40px;
   border: 0;
   margin-top: 35px;
-  margin-bottom: 65px;
+  margin-bottom: 27px;
 }
 
 .product-pick-size-block button img, .product-pick-size-block button p {
@@ -545,8 +552,8 @@ nav#food-menu li a label {
 /**************END banners ***************/
 /************** Products tabs section ************/
 section#products-tabs {
-  height: 855px;
-  padding: 36px 0;
+  height: 916px;
+  padding: 36px 0 80px;
   /*********** tabs header **********************/
   /************* end of tabs header *********/
   /*********** product tabs ************/
@@ -578,12 +585,12 @@ section#products-tabs header > div a {
   padding: 0 30px;
 }
 
-section#products-tabs header > div .selected-tab {
+section#products-tabs header > div .selected-tab-header {
   color: black;
   font-weight: bold;
 }
 
-section#products-tabs header > div .selected-tab div {
+section#products-tabs header > div .selected-tab-header div {
   height: 15px;
   width: 60px;
   border-bottom: 3px solid #f0002f;
@@ -596,12 +603,24 @@ section#products-tabs .product-tab {
   margin: 0 18px;
 }
 
-section#products-tabs .product-tab:first-of-type, section#products-tabs .product-pick-size-block:first-of-type {
+section#products-tabs .product-tab:first-of-type {
   margin-left: 0;
 }
 
-section#products-tabs .product-tab:last-of-type, section#products-tabs .product-pick-size-block:last-of-type {
+section#products-tabs .product-tab:last-of-type {
   margin-right: 0;
+}
+
+section#products-tabs .product-tab .product-pick-size-block {
+  margin-top: 27px;
+}
+
+section#products-tabs .product-tab .product-pick-size-block .pick-size div {
+  width: 110px;
+}
+
+section#products-tabs .selected-tab {
+  border: solid 4px #e9e9e9;
 }
 
 /*********** end of product tabs section *****/
@@ -686,8 +705,12 @@ section#great-with .section-wrapper #great-with-products .great-with-product:las
 section#product-slider {
   height: 486px;
   width: 100%;
-  padding: 80px 0;
+  padding: 80px 0 70px;
   background-color: #f4f2eb;
+}
+
+section#product-slider .section-wrapper .product-pick-size-block {
+  margin-left: 70px;
 }
 
 /**********END product-slider ********/
