@@ -281,7 +281,7 @@ nav#food-menu {
     float: left;
     position: relative;
 
-    h1, h2, h3, h4, .badge, .subscript, p {
+    h1, h2, h3, h4, h5, .badge, .subscript, p {
       position: absolute;
       color:white;
     }
@@ -347,8 +347,8 @@ nav#food-menu {
         position: static;
         font-family: "Yanone Kaffeesatz light";
         font-size: 18px;
-        line-height: 9.22px;
-        padding-top: 16px;
+        //line-height: 9.22px;
+        padding-top: 13px;
       }
     }
     .subscript {
@@ -414,6 +414,20 @@ nav#food-menu {
     height: 210px;
     margin-top: 11px;
     margin-left: 15px;
+
+    h2 {
+      top: 61px;
+      left: 245px;
+      font-family: "Oswald";
+      font-weight: bold;
+    }
+
+    h5 {
+      top: 66px;
+      left: 146px;
+      font-family: "Oswald light";
+      color: #fdba3e;
+    }
   }
 }
 /**************END banners ***************/

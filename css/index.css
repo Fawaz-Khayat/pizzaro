@@ -292,11 +292,12 @@ nav#food-menu li a label {
   position: relative;
 }
 
-.banners #main-banner-product h1, .banners #main-banner-product h2, .banners #main-banner-product h3, .banners #main-banner-product h4, .banners #main-banner-product .badge, .banners #main-banner-product .subscript, .banners #main-banner-product p,
+.banners #main-banner-product h1, .banners #main-banner-product h2, .banners #main-banner-product h3, .banners #main-banner-product h4, .banners #main-banner-product h5, .banners #main-banner-product .badge, .banners #main-banner-product .subscript, .banners #main-banner-product p,
 .banners #upper-left-banner-product h1,
 .banners #upper-left-banner-product h2,
 .banners #upper-left-banner-product h3,
 .banners #upper-left-banner-product h4,
+.banners #upper-left-banner-product h5,
 .banners #upper-left-banner-product .badge,
 .banners #upper-left-banner-product .subscript,
 .banners #upper-left-banner-product p,
@@ -304,6 +305,7 @@ nav#food-menu li a label {
 .banners #upper-right-banner-product h2,
 .banners #upper-right-banner-product h3,
 .banners #upper-right-banner-product h4,
+.banners #upper-right-banner-product h5,
 .banners #upper-right-banner-product .badge,
 .banners #upper-right-banner-product .subscript,
 .banners #upper-right-banner-product p,
@@ -311,6 +313,7 @@ nav#food-menu li a label {
 .banners #bottom-banner-product h2,
 .banners #bottom-banner-product h3,
 .banners #bottom-banner-product h4,
+.banners #bottom-banner-product h5,
 .banners #bottom-banner-product .badge,
 .banners #bottom-banner-product .subscript,
 .banners #bottom-banner-product p {
@@ -398,8 +401,7 @@ nav#food-menu li a label {
   position: static;
   font-family: "Yanone Kaffeesatz light";
   font-size: 18px;
-  line-height: 9.22px;
-  padding-top: 16px;
+  padding-top: 13px;
 }
 
 .banners #main-banner-product .subscript {
@@ -466,6 +468,20 @@ nav#food-menu li a label {
   height: 210px;
   margin-top: 11px;
   margin-left: 15px;
+}
+
+.banners #bottom-banner-product h2 {
+  top: 61px;
+  left: 245px;
+  font-family: "Oswald";
+  font-weight: bold;
+}
+
+.banners #bottom-banner-product h5 {
+  top: 66px;
+  left: 146px;
+  font-family: "Oswald light";
+  color: #fdba3e;
 }
 
 /**************END banners ***************/
