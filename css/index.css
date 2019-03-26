@@ -292,6 +292,81 @@ nav#food-menu li a label {
   position: relative;
 }
 
+.banners #main-banner-product h1, .banners #main-banner-product h2, .banners #main-banner-product h3, .banners #main-banner-product h4, .banners #main-banner-product .badge, .banners #main-banner-product .subscript, .banners #main-banner-product p,
+.banners #upper-left-banner-product h1,
+.banners #upper-left-banner-product h2,
+.banners #upper-left-banner-product h3,
+.banners #upper-left-banner-product h4,
+.banners #upper-left-banner-product .badge,
+.banners #upper-left-banner-product .subscript,
+.banners #upper-left-banner-product p,
+.banners #upper-right-banner-product h1,
+.banners #upper-right-banner-product h2,
+.banners #upper-right-banner-product h3,
+.banners #upper-right-banner-product h4,
+.banners #upper-right-banner-product .badge,
+.banners #upper-right-banner-product .subscript,
+.banners #upper-right-banner-product p,
+.banners #bottom-banner-product h1,
+.banners #bottom-banner-product h2,
+.banners #bottom-banner-product h3,
+.banners #bottom-banner-product h4,
+.banners #bottom-banner-product .badge,
+.banners #bottom-banner-product .subscript,
+.banners #bottom-banner-product p {
+  position: absolute;
+  color: white;
+}
+
+.banners #main-banner-product h1,
+.banners #upper-left-banner-product h1,
+.banners #upper-right-banner-product h1,
+.banners #bottom-banner-product h1 {
+  font-family: "Yanone Kaffeesatz";
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.banners #main-banner-product h2,
+.banners #upper-left-banner-product h2,
+.banners #upper-right-banner-product h2,
+.banners #bottom-banner-product h2 {
+  font-family: "Yanone Kaffeesatz";
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.banners #main-banner-product h3,
+.banners #upper-left-banner-product h3,
+.banners #upper-right-banner-product h3,
+.banners #bottom-banner-product h3 {
+  font-family: "Yanone Kaffeesatz extralight";
+  font-size: 50px;
+}
+
+.banners #main-banner-product h4,
+.banners #upper-left-banner-product h4,
+.banners #upper-right-banner-product h4,
+.banners #bottom-banner-product h4 {
+  font-family: "Yanone Kaffeesatz extralight";
+  font-size: 42px;
+}
+
+.banners #main-banner-product h5,
+.banners #upper-left-banner-product h5,
+.banners #upper-right-banner-product h5,
+.banners #bottom-banner-product h5 {
+  font-size: 36px;
+}
+
+.banners #main-banner-product .subscript,
+.banners #upper-left-banner-product .subscript,
+.banners #upper-right-banner-product .subscript,
+.banners #bottom-banner-product .subscript {
+  font-family: "Yanone Kaffeesatz";
+  font-size: 14px;
+}
+
 .banners #main-banner-product {
   width: 570px;
   height: 442px;
@@ -299,22 +374,16 @@ nav#food-menu li a label {
   color: white;
 }
 
-.banners #main-banner-product h2, .banners #main-banner-product h3, .banners #main-banner-product .badge, .banners #main-banner-product .subscript {
-  position: absolute;
+.banners #main-banner-product h1, .banners #main-banner-product h2, .banners #main-banner-product h3, .banners #main-banner-product h4, .banners #main-banner-product .badge, .banners #main-banner-product .subscript {
   left: 38px;
 }
 
-.banners #main-banner-product h2 {
+.banners #main-banner-product h1 {
   top: 53px;
-  font-family: "Yanone Kaffeesatz";
-  font-size: 80px;
-  font-weight: bold;
 }
 
-.banners #main-banner-product h3 {
+.banners #main-banner-product h4 {
   top: 123px;
-  font-family: "Yanone Kaffeesatz extralight";
-  font-size: 42px;
 }
 
 .banners #main-banner-product .badge {
@@ -325,7 +394,8 @@ nav#food-menu li a label {
   background-color: #f0002f;
 }
 
-.banners #main-banner-product .badge p {
+.banners #main-banner-product .badge .badge-text {
+  position: static;
   font-family: "Yanone Kaffeesatz light";
   font-size: 18px;
   line-height: 9.22px;
@@ -334,8 +404,6 @@ nav#food-menu li a label {
 
 .banners #main-banner-product .subscript {
   top: 404px;
-  font-family: "Yanone Kaffeesatz";
-  font-size: 14px;
 }
 
 .banners #upper-left-banner-product,
@@ -348,6 +416,49 @@ nav#food-menu li a label {
 
 .banners #upper-left-banner-product {
   margin-right: 15px;
+}
+
+.banners #upper-left-banner-product h3, .banners #upper-left-banner-product h2, .banners #upper-left-banner-product p {
+  width: 105px;
+  left: 140px;
+  text-align: center;
+  color: white;
+}
+
+.banners #upper-left-banner-product h3 {
+  top: 32px;
+}
+
+.banners #upper-left-banner-product h2 {
+  top: 76px;
+}
+
+.banners #upper-left-banner-product p, .banners #upper-left-banner-product span {
+  top: 136px;
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+}
+
+.banners #upper-left-banner-product p span, .banners #upper-left-banner-product span span {
+  text-decoration: underline;
+}
+
+.banners #upper-right-banner-product h3, .banners #upper-right-banner-product h2, .banners #upper-right-banner-product .subscript {
+  width: 107px;
+  left: 138px;
+  text-align: center;
+}
+
+.banners #upper-right-banner-product h3 {
+  top: 33px;
+}
+
+.banners #upper-right-banner-product h2 {
+  top: 76px;
+}
+
+.banners #upper-right-banner-product .subscript {
+  top: 144px;
 }
 
 .banners #bottom-banner-product {

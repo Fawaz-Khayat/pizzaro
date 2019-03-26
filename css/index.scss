@@ -280,6 +280,42 @@ nav#food-menu {
   #bottom-banner-product {
     float: left;
     position: relative;
+
+    h1, h2, h3, h4, .badge, .subscript, p {
+      position: absolute;
+      color:white;
+    }
+
+    h1 {
+      font-family: "Yanone Kaffeesatz";
+      font-size: 80px;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-family: "Yanone Kaffeesatz";
+      font-size: 60px;
+      font-weight: bold;
+    }
+
+    h3 {
+      font-family: "Yanone Kaffeesatz extralight";
+      font-size: 50px;
+    }
+
+    h4 {
+      font-family: "Yanone Kaffeesatz extralight";
+      font-size: 42px;
+    }
+
+    h5 {
+      font-size: 36px;
+    }
+
+    .subscript {
+      font-family: "Yanone Kaffeesatz";
+      font-size: 14px;
+    }
   }
 
   #main-banner-product {
@@ -288,22 +324,16 @@ nav#food-menu {
     margin-right: 15px;
     color:white;
 
-    h2, h3, .badge, .subscript {
-      position: absolute;
+    h1, h2, h3, h4, .badge, .subscript {
       left: 38px;
     }
 
-    h2 {
+    h1 {
       top:53px;
-      font-family: "Yanone Kaffeesatz";
-      font-size: 80px;
-      font-weight: bold;
     }
 
-    h3 {
+    h4 {
       top: 123px;
-      font-family: "Yanone Kaffeesatz extralight";
-      font-size: 42px;
     }
 
     .badge {
@@ -313,7 +343,8 @@ nav#food-menu {
       border-radius: 10px;
       background-color: #f0002f;
 
-      p {
+      .badge-text {
+        position: static;
         font-family: "Yanone Kaffeesatz light";
         font-size: 18px;
         line-height: 9.22px;
@@ -322,8 +353,6 @@ nav#food-menu {
     }
     .subscript {
     top: 404px;
-    font-family: "Yanone Kaffeesatz";
-    font-size: 14px;
     }
   }
   #upper-left-banner-product,
@@ -335,7 +364,51 @@ nav#food-menu {
   }
   #upper-left-banner-product {
     margin-right: 15px;
+
+    h3, h2, p {
+      width: 105px;
+      left: 140px;
+      text-align: center;
+      color:white;
+    }
+
+    h3 {
+      top: 32px;
+    }
+
+    h2 {
+      top: 76px;
+    }
+
+    p, span {
+      top: 136px;
+      font-family: "Roboto Condensed";
+      font-size: 16px;
+      span {
+        text-decoration: underline;
+      }
+    }
   }
+
+  #upper-right-banner-product {
+    h3, h2, .subscript {
+      width: 107px;
+      left: 138px;
+      text-align: center;
+    }
+    h3 {
+      top: 33px;
+    }
+
+    h2 {
+      top: 76px;
+    }
+
+    .subscript {
+      top: 144px;
+    }
+  }
+
   #bottom-banner-product{
     width:570px;
     height: 210px;
