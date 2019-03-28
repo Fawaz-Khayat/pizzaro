@@ -158,10 +158,14 @@ $images-dir : "../images/";
     img.logo {
       padding: 15px 27px 7px 0;
     }
-
-    nav {
+    
+    .content-wrapper {
+      float: left;
+    }
+    nav#page-menu {
       // max-width: 470px;
       // width: 41%;
+      float: left;
 
       ul {
         width: 100%;
@@ -885,12 +889,31 @@ footer  {
   }
 }
 /********** END footer ***************/
-
+/************ media queries **********/
 @media screen and (max-width: 1920px) {
 
   .insta-gallery {
     .section-wrapper  {
       max-width: 320px * 3;
+    }
+  }
+}
+
+@media screen and (max-width: 1170px) and (min-width:941px) {
+  #page-header {
+    .section-wrapper {
+      img.logo {
+        float:none;
+        display: block;
+        margin: 0 auto;
+      }
+
+      > .content-wrapper {
+        float:none;
+      }
+      #page-menu {
+        float:left;
+      }
     }
   }
 }

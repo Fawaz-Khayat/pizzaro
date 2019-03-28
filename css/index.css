@@ -168,18 +168,26 @@
   padding: 15px 27px 7px 0;
 }
 
-#page-header .section-wrapper nav ul {
+#page-header .section-wrapper .content-wrapper {
+  float: left;
+}
+
+#page-header .section-wrapper nav#page-menu {
+  float: left;
+}
+
+#page-header .section-wrapper nav#page-menu ul {
   width: 100%;
 }
 
-#page-header .section-wrapper nav ul li {
+#page-header .section-wrapper nav#page-menu ul li {
   color: white;
   font-size: 15px;
   font-weight: bold;
   padding: 28px 23px;
 }
 
-#page-header .section-wrapper nav ul li .under-line {
+#page-header .section-wrapper nav#page-menu ul li .under-line {
   background: #ffae00;
   height: 2px;
   width: 42px;
@@ -966,9 +974,24 @@ footer button p {
 }
 
 /********** END footer ***************/
+/************ media queries **********/
 @media screen and (max-width: 1920px) {
   .insta-gallery .section-wrapper {
     max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 1170px) and (min-width: 941px) {
+  #page-header .section-wrapper img.logo {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  #page-header .section-wrapper > .content-wrapper {
+    float: none;
+  }
+  #page-header .section-wrapper #page-menu {
+    float: left;
   }
 }
 /*# sourceMappingURL=index.css.map */
