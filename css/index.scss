@@ -120,6 +120,10 @@ $images-dir : "../images/";
   }
 
   button {
+
+    .content-wrapper {
+      max-width: 111.3px;
+    }
     background-color: #f0002f;
     color: white;
     width: 247px;
@@ -177,6 +181,7 @@ $images-dir : "../images/";
     
     .content-wrapper {
       float: left;
+      max-width: 941px;
     }
     nav#page-menu {
       // max-width: 470px;
@@ -313,6 +318,8 @@ nav#food-menu {
   background-color: #c00a27;
 
   .content-wrapper {
+
+    max-width: 563px;
     img {
       padding: 146px 0 100px;
     }
@@ -344,6 +351,10 @@ nav#food-menu {
         }
         &:last-of-type {
           margin-right:0;
+        }
+
+        .content-wrapper {
+          max-width: 175px;
         }
       }
     }
@@ -431,6 +442,11 @@ nav#food-menu {
         font-size: 18px;
         //line-height: 9.22px;
         padding-top: 13px;
+
+        .content-wrapper {
+          
+          max-width: 67.25px;
+        }
       }
     }
     .subscript {
@@ -520,6 +536,11 @@ section#products-tabs {
   .section-wrapper  {
     //height: 100%;
     text-align: center;
+
+    >.content-wrapper {
+
+      max-width: 1152px;
+    }
   }
 /*********** tabs header **********************/
   header {
@@ -527,7 +548,7 @@ section#products-tabs {
     margin-bottom: 34px;
     border-bottom: 1px solid rgb(233, 233, 233);
     > div {
-      width: 475.617px;
+      width: 478.717px;
       margin: 0 auto;
       a {
         float: left;
@@ -590,6 +611,12 @@ section#products-tabs {
   color: white;
   padding-top: 100px;
 
+  .section-wrapper {
+    .content-wrapper {
+
+      max-width: 370.767px;
+    }
+  }
   .strike-through {
     width: 370.767px;
     margin-bottom: 14px;
@@ -616,6 +643,7 @@ section#products-tabs {
 
   .content-wrapper .content-wrapper {
     position: relative;
+    max-width: 213px;
     //left: -92px;
       .price {
       font-family: "Yanone Kaffeesatz";
@@ -898,6 +926,10 @@ footer  {
     margin: 0 auto;
     color: white;
     
+    .content-wrapper {
+
+      max-width: 136px;
+    }
     img, p {
       float:left;
     }

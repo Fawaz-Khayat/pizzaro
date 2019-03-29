@@ -135,6 +135,10 @@
   margin-bottom: 27px;
 }
 
+.product-pick-size-block button .content-wrapper {
+  max-width: 111.3px;
+}
+
 .product-pick-size-block button img, .product-pick-size-block button p {
   float: left;
 }
@@ -184,6 +188,7 @@
 
 #page-header .section-wrapper .content-wrapper {
   float: left;
+  max-width: 941px;
 }
 
 #page-header .section-wrapper nav#page-menu {
@@ -324,6 +329,10 @@ nav#food-menu li a label {
   background-color: #c00a27;
 }
 
+#slider .content-wrapper {
+  max-width: 563px;
+}
+
 #slider .content-wrapper img {
   padding: 146px 0 100px;
 }
@@ -360,6 +369,10 @@ nav#food-menu li a label {
 
 #slider .content-wrapper .slider-dots .slider-dot:last-of-type {
   margin-right: 0;
+}
+
+#slider .content-wrapper .slider-dots .slider-dot .content-wrapper {
+  max-width: 175px;
 }
 
 /************* END Slider ******************/
@@ -489,6 +502,10 @@ nav#food-menu li a label {
   padding-top: 13px;
 }
 
+.banners #main-banner-product .badge .badge-text .content-wrapper {
+  max-width: 67.25px;
+}
+
 .banners #main-banner-product .subscript {
   top: 404px;
 }
@@ -583,6 +600,10 @@ section#products-tabs .section-wrapper {
   text-align: center;
 }
 
+section#products-tabs .section-wrapper > .content-wrapper {
+  max-width: 1152px;
+}
+
 section#products-tabs header {
   height: 50px;
   margin-bottom: 34px;
@@ -590,7 +611,7 @@ section#products-tabs header {
 }
 
 section#products-tabs header > div {
-  width: 475.617px;
+  width: 478.717px;
   margin: 0 auto;
 }
 
@@ -650,6 +671,10 @@ section#products-tabs .selected-tab {
   padding-top: 100px;
 }
 
+#deal-of-the-day .section-wrapper .content-wrapper {
+  max-width: 370.767px;
+}
+
 #deal-of-the-day .strike-through {
   width: 370.767px;
   margin-bottom: 14px;
@@ -679,6 +704,7 @@ section#products-tabs .selected-tab {
 
 #deal-of-the-day .content-wrapper .content-wrapper {
   position: relative;
+  max-width: 213px;
 }
 
 #deal-of-the-day .content-wrapper .content-wrapper .price {
@@ -961,6 +987,10 @@ footer button {
   display: block;
   margin: 0 auto;
   color: white;
+}
+
+footer button .content-wrapper {
+  max-width: 136px;
 }
 
 footer button img, footer button p {
