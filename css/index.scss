@@ -22,7 +22,6 @@ $images-dir : "../images/";
     margin-bottom: 35px;
   }
   .pick-size {
-    width: fit-content;
     height: 22px;
     margin-bottom: 23px;
     margin-right: auto;
@@ -43,7 +42,6 @@ $images-dir : "../images/";
 
   .size-price {
     clear:both;
-    width: fit-content;
     margin: 0 auto;
 
     &:after {
@@ -100,10 +98,16 @@ $images-dir : "../images/";
     margin-bottom: 20px;
   }
   .pick-size {
+
+    width: 303.15px;
     div {
       width:120px;
       border-bottom: 1px solid #c8c6bc;
     }
+  }
+
+  .size-price {
+    width: 234.5px;
   }
   .size {
     font-size: 13px;
@@ -139,17 +143,29 @@ $images-dir : "../images/";
     }
   }
 }
+
+.great-with-pick-size-block {
+
+  .pick-size {
+    width: 243.15px;
+  }
+
+  .size-price {
+    width: 215.067px;
+  }
+  .one-size-price {
+    width: 92.533px;
+  }
+}
 /************** header *************/
 #page-header {
   background-color:rgb(192, 10, 39);
-  //height: fit-content;
   img.logo, li, h4, img.scooter, #call-number, #order-cart  {
     float: left;
   }
 
   .section-wrapper  {
     min-height: 136px;
-    //height: fit-content;
     padding-top: 32px;
     padding-bottom: 49px;
     border-bottom: 1px solid rgb(203, 51, 75);
@@ -231,7 +247,7 @@ $images-dir : "../images/";
   }
   #scooter-order {
     height: 30px;
-    width:fit-content;
+    width:178.667px;
     margin: 0 auto;
     padding-top: 16px;
 
@@ -511,7 +527,7 @@ section#products-tabs {
     margin-bottom: 34px;
     border-bottom: 1px solid rgb(233, 233, 233);
     > div {
-      width: fit-content;
+      width: 475.617px;
       margin: 0 auto;
       a {
         float: left;
@@ -575,7 +591,7 @@ section#products-tabs {
   padding-top: 100px;
 
   .strike-through {
-    width: fit-content;
+    width: 370.767px;
     margin-bottom: 14px;
     font-family: "Yanone Kaffeesatz light";
     div, h4 {
@@ -699,7 +715,7 @@ section#great-with {
       border-bottom: 1px solid rgb(233, 233, 233);
 
       > div {
-        width: fit-content;
+        width: 265.417px;
         margin: 0 auto;
 
         h3 {
@@ -725,7 +741,7 @@ section#great-with {
     }
     /********** END great-with header *****/
     #great-with-products {
-      width: fit-content;
+      width: 1160px;
       margin: 0 auto;
 
       .great-with-product {
@@ -755,6 +771,14 @@ section#product-slider {
   .section-wrapper  {
     .product-pick-size-block {
       margin-left: 70px;
+
+      .pick-size {
+        width: 323.15px;
+      }
+
+      .size-price {
+        width: 234.5px;
+      }
     }
   }
 }
@@ -812,7 +836,7 @@ footer  {
   padding-top: 90px;
 
   #social-icons {
-    width: fit-content;
+    width: 400px;
     margin:0 auto 56px;
     .social-icon {
       width: 52px;
@@ -832,13 +856,13 @@ footer  {
   }
 
   .logo {
-    width:fit-content;
+    width:201px;
     display:block;
     margin:0 auto 70px;
   }
 
   .contact-info {
-    width:fit-content;
+    width: 888.75px;
     margin:0 auto 20px;
 
     p {
@@ -856,7 +880,7 @@ footer  {
   }
 
   p.copyright {
-    width:fit-content;
+    width:318px;
     margin:0 auto 76px;
     font-size: 13px;
     line-height: 21px;
@@ -899,7 +923,7 @@ footer  {
   }
 }
 
-@media screen and (max-width: 1170px) and (min-width:941px) {
+@media screen and (max-width: 1170px) {
   #page-header {
     .section-wrapper {
       img.logo {
