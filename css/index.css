@@ -285,39 +285,43 @@ nav#food-menu .section-wrapper {
   padding: 20px 0;
 }
 
-nav#food-menu li {
+nav#food-menu ul.content-wrapper {
+  max-width: 1143px;
+}
+
+nav#food-menu ul.content-wrapper li {
   float: left;
   padding: 1% 0;
 }
 
-nav#food-menu li:first-of-type {
+nav#food-menu ul.content-wrapper li:first-of-type {
   padding-left: 0;
 }
 
-nav#food-menu li:last-of-type {
+nav#food-menu ul.content-wrapper li:last-of-type {
   padding-right: 0;
 }
 
-nav#food-menu li:last-of-type a {
+nav#food-menu ul.content-wrapper li:last-of-type a {
   width: 93px;
 }
 
-nav#food-menu li:last-of-type label {
+nav#food-menu ul.content-wrapper li:last-of-type label {
   padding-right: 0;
 }
 
-nav#food-menu li a {
+nav#food-menu ul.content-wrapper li a {
   display: table-cell;
   height: 45px;
   width: 150px;
   vertical-align: middle;
 }
 
-nav#food-menu li a img, nav#food-menu li a label {
+nav#food-menu ul.content-wrapper li a img, nav#food-menu ul.content-wrapper li a label {
   vertical-align: middle;
 }
 
-nav#food-menu li a label {
+nav#food-menu ul.content-wrapper li a label {
   padding: 0 20px;
   color: #ffc0ca;
 }

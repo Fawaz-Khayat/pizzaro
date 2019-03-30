@@ -276,37 +276,42 @@ nav#food-menu {
     //height: 100%;
     padding: 20px 0;
   }
-  li {
-    float: left;
-    padding: 1% 0;
 
-    &:first-of-type {
-      padding-left: 0;
-    }
+  ul.content-wrapper {
+    max-width: 1143px;
+    li {
+      float: left;
+      padding: 1% 0;
 
-    &:last-of-type {
-      padding-right: 0;
-      a {
-        width: 93px;
+      &:first-of-type {
+        padding-left: 0;
       }
-      label {
+
+      &:last-of-type {
         padding-right: 0;
+        a {
+          width: 93px;
+        }
+        label {
+          padding-right: 0;
+        }
       }
-    }
-    a {
-      display: table-cell;
-      height: 45px; // set to heighest icon
-      width: 150px;
-      vertical-align: middle;
-      img, label {
+      a {
+        display: table-cell;
+        height: 45px; // set to heighest icon
+        width: 150px;
         vertical-align: middle;
-      }
-      label {
-        padding: 0 20px;
-        color:#ffc0ca;
+        img, label {
+          vertical-align: middle;
+        }
+        label {
+          padding: 0 20px;
+          color:#ffc0ca;
+        }
       }
     }
   }
+  
 }
 
 /************* END food menu **************/
