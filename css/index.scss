@@ -957,10 +957,14 @@ footer  {
 @media screen and (max-width: 1170px) {
   #page-header {
     .section-wrapper {
+
+      padding:0 0 50px;
+      min-height: 275px;
       img.logo {
         float:none;
         display: block;
         margin: 0 auto;
+        padding:50px 0;
       }
 
       > .content-wrapper {

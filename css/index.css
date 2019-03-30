@@ -1016,10 +1016,15 @@ footer button p {
 }
 
 @media screen and (max-width: 1170px) {
+  #page-header .section-wrapper {
+    padding: 0 0 50px;
+    min-height: 275px;
+  }
   #page-header .section-wrapper img.logo {
     float: none;
     display: block;
     margin: 0 auto;
+    padding: 50px 0;
   }
   #page-header .section-wrapper > .content-wrapper {
     float: none;
