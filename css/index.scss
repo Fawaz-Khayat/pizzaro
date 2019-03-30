@@ -107,7 +107,7 @@ $images-dir : "../images/";
   }
 
   .size-price {
-    width: 234.5px;
+    width: 235px;
   }
   .size {
     font-size: 13px;
@@ -155,10 +155,10 @@ $images-dir : "../images/";
   }
 
   .size-price {
-    width: 215.067px;
+    width: 216px;
   }
   .one-size-price {
-    width: 92.533px;
+    width: 93px;
   }
 }
 /************** header *************/
@@ -181,7 +181,7 @@ $images-dir : "../images/";
     
     .content-wrapper {
       float: left;
-      max-width: 941px;
+      max-width: 942px;
     }
     nav#page-menu {
       // max-width: 470px;
@@ -260,7 +260,7 @@ $images-dir : "../images/";
       font-size: 14px;
       font-family: "open sans extrabold";
       color: white;
-      padding-left: 5px;
+      padding-left: 4px;
       padding-bottom: 10px;
     }
 
@@ -442,11 +442,10 @@ nav#food-menu {
         font-size: 18px;
         //line-height: 9.22px;
         padding-top: 13px;
-
-        .content-wrapper {
+      }
+      .content-wrapper {
           
-          max-width: 67.25px;
-        }
+        max-width: 68px;
       }
     }
     .subscript {
@@ -618,7 +617,7 @@ section#products-tabs {
     }
   }
   .strike-through {
-    width: 370.767px;
+    width: 371px;
     margin-bottom: 14px;
     font-family: "Yanone Kaffeesatz light";
     div, h4 {
@@ -743,7 +742,7 @@ section#great-with {
       border-bottom: 1px solid rgb(233, 233, 233);
 
       > div {
-        width: 265.417px;
+        width: 266px;
         margin: 0 auto;
 
         h3 {
@@ -805,7 +804,7 @@ section#product-slider {
       }
 
       .size-price {
-        width: 234.5px;
+        width: 235px;
       }
     }
   }
