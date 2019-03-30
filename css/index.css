@@ -277,7 +277,6 @@
 /************ food menu *******************/
 nav#food-menu {
   width: 100%;
-  height: 100px;
   background-color: #c00a27;
 }
 
@@ -315,6 +314,10 @@ nav#food-menu ul.content-wrapper li a {
   height: 45px;
   width: 150px;
   vertical-align: middle;
+}
+
+nav#food-menu ul.content-wrapper li a > div {
+  display: inline;
 }
 
 nav#food-menu ul.content-wrapper li a img, nav#food-menu ul.content-wrapper li a label {
@@ -1035,6 +1038,39 @@ footer button p {
   }
   #page-header .section-wrapper #page-menu {
     float: left;
+  }
+  nav#food-menu ul.content-wrapper {
+    max-width: 1170px;
+  }
+  nav#food-menu ul.content-wrapper li {
+    width: 12.5%;
+  }
+  nav#food-menu ul.content-wrapper li a {
+    display: block;
+    width: 60px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  nav#food-menu ul.content-wrapper li a > div {
+    display: block;
+    width: 47px;
+    height: 55px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  nav#food-menu ul.content-wrapper li a > div img {
+    display: block;
+    margin: auto auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  nav#food-menu ul.content-wrapper li a label {
+    padding: 0;
   }
 }
 /*# sourceMappingURL=index.css.map */

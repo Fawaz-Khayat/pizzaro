@@ -270,7 +270,7 @@ $images-dir : "../images/";
 /************ food menu *******************/
 nav#food-menu {
   width:100%;
-  height: 100px;
+  //height: 100px;
   background-color: #c00a27;
   .section-wrapper {
     //height: 100%;
@@ -301,6 +301,9 @@ nav#food-menu {
         height: 45px; // set to heighest icon
         width: 150px;
         vertical-align: middle;
+        >div {
+          display: inline;
+        }
         img, label {
           vertical-align: middle;
         }
@@ -979,5 +982,47 @@ footer  {
         float:left;
       }
     }
+  }
+
+  nav#food-menu{
+    ul.content-wrapper {
+      max-width: 1170px;
+
+      li {
+
+        width: 12.5%;
+
+        a {
+          display: block;
+          width: 60px;
+          height: 80px;
+          margin: 0 auto;
+          text-align: center;
+          >div {
+            display: block;
+            width: 47px;
+            height: 55px;
+            margin: 0 auto;
+            margin-bottom: 10px;
+            position: relative;
+            img {
+              display: block;
+              margin: auto auto;
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              right:0;
+              left:0;
+            }
+          }
+
+          label {
+            padding:0;
+          }
+        }
+        
+      }
+    }
+    
   }
 }
