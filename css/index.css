@@ -1072,5 +1072,30 @@ footer button p {
   nav#food-menu ul.content-wrapper li a label {
     padding: 0;
   }
+  section.banners #main-banner-product {
+    margin-left: calc(50% - 435px);
+  }
+  section.banners #upper-left-banner-product {
+    margin-bottom: 22px;
+  }
+  section.banners #bottom-banner-product {
+    margin-left: calc(50% - 285px);
+  }
+  section#products-tabs {
+    height: 1468px;
+    padding-bottom: 36px;
+  }
+  section#products-tabs .section-wrapper > .content-wrapper {
+    max-width: 764px;
+  }
+  section#products-tabs .section-wrapper > .content-wrapper .product-tab {
+    margin: 0;
+  }
+  section#products-tabs .section-wrapper > .content-wrapper .product-tab:nth-of-type(odd) {
+    margin-right: 18px;
+  }
+  section#products-tabs .section-wrapper > .content-wrapper .product-tab:nth-of-type(even) {
+    margin-left: 18px;
+  }
 }
 /*# sourceMappingURL=index.css.map */

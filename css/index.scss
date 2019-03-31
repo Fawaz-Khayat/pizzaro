@@ -1022,7 +1022,42 @@ footer  {
         }
         
       }
-    }
-    
+    } 
   }
+
+  section.banners {
+    #main-banner-product {
+      margin-left: calc(50% - 435px);
+    }
+
+    #upper-left-banner-product {
+      margin-bottom: 22px;
+    }
+    #bottom-banner-product {
+      margin-left: calc(50% - 285px);
+    }
+  }
+
+  section#products-tabs {
+
+    height: 1468px;
+    padding-bottom: 36px;
+    
+    .section-wrapper {
+      >.content-wrapper {
+        max-width: 764px;
+        .product-tab {
+          margin: 0;
+
+          &:nth-of-type(odd) {
+            margin-right: 18px;
+          }
+          &:nth-of-type(even) {
+            margin-left: 18px;
+          }
+        }
+      }
+    }
+  }
+    
 }
