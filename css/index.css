@@ -1090,6 +1090,7 @@ footer button p {
   }
   section#products-tabs .section-wrapper > .content-wrapper .product-tab {
     margin: 0;
+    margin-bottom: 36px;
   }
   section#products-tabs .section-wrapper > .content-wrapper .product-tab:nth-of-type(odd) {
     margin-right: 18px;
