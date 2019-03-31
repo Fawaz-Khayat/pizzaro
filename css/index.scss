@@ -1042,7 +1042,7 @@ footer  {
 
     height: 1468px;
     padding-bottom: 36px;
-    
+
     .section-wrapper {
       >.content-wrapper {
         max-width: 764px;
@@ -1059,5 +1059,27 @@ footer  {
       }
     }
   }
-    
+
+  section#great-with {
+
+    height:1017px;
+    padding-bottom: 73px;
+    .section-wrapper {
+
+      #great-with-products {
+        width: 560px;
+        .great-with-product {
+
+          margin: 0 0 20px;
+
+          &:nth-of-type(odd) {
+            margin-right: 20px;
+          }
+          &:nth-of-type(even) {
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+  }  
 }

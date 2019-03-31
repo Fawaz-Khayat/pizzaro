@@ -1097,5 +1097,21 @@ footer button p {
   section#products-tabs .section-wrapper > .content-wrapper .product-tab:nth-of-type(even) {
     margin-left: 18px;
   }
+  section#great-with {
+    height: 1017px;
+    padding-bottom: 73px;
+  }
+  section#great-with .section-wrapper #great-with-products {
+    width: 560px;
+  }
+  section#great-with .section-wrapper #great-with-products .great-with-product {
+    margin: 0 0 20px;
+  }
+  section#great-with .section-wrapper #great-with-products .great-with-product:nth-of-type(odd) {
+    margin-right: 20px;
+  }
+  section#great-with .section-wrapper #great-with-products .great-with-product:nth-of-type(even) {
+    margin-left: 20px;
+  }
 }
 /*# sourceMappingURL=index.css.map */
