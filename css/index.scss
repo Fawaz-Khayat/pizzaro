@@ -1045,7 +1045,9 @@ footer  {
 
     .section-wrapper {
       >.content-wrapper {
-        max-width: 764px;
+        max-width: 792px;
+        padding: 0 18px;
+        margin: 0 calc(50% - 396px);
         .product-tab {
           margin: 0;
           margin-bottom: 36px;
@@ -1199,7 +1201,10 @@ footer  {
   }
 }
 
+@media screen and (max-width:792px) {
+
+}
 @media screen and (max-width:630px) {
 
-  
+
 }

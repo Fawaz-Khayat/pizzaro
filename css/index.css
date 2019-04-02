@@ -1086,7 +1086,9 @@ footer button p {
     padding-bottom: 36px;
   }
   section#products-tabs .section-wrapper > .content-wrapper {
-    max-width: 764px;
+    max-width: 792px;
+    padding: 0 18px;
+    margin: 0 calc(50% - 396px);
   }
   section#products-tabs .section-wrapper > .content-wrapper .product-tab {
     margin: 0;
