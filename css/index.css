@@ -1162,5 +1162,11 @@ footer button p {
     position: absolute;
     left: calc(50% + 15px);
   }
+  section.banners .section-wrapper #main-banner-product {
+    margin: 30px calc(50% - 285px);
+  }
+  section.banners .section-wrapper #upper-left-banner-product {
+    margin-left: calc(50% - 285px);
+  }
 }
 /*# sourceMappingURL=index.css.map */
