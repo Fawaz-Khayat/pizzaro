@@ -1160,4 +1160,46 @@ footer  {
       }
     }
   }
+
+  section.insta-gallery {
+    .section-wrapper {
+      margin:0 calc(50% - 320px);
+    }
+  }
+}
+
+@media screen and (max-width:888px) {
+  footer {
+    .section-wrapper {
+      .contact-info {
+        width: 349px;
+
+        p {
+          float: none;
+          border: none;
+          padding:0;
+          padding-bottom: 10px;
+          margin: 0 auto;
+        }
+
+        p.name {
+          width: 123px;
+        }
+        p.address {
+          width: 296px;
+        }
+        p.phone {
+          width: 156px;
+        }
+        p.fax {
+          width: 109px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:630px) {
+
+  
 }

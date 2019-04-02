@@ -1168,5 +1168,33 @@ footer button p {
   section.banners .section-wrapper #upper-left-banner-product {
     margin-left: calc(50% - 285px);
   }
+  section.insta-gallery .section-wrapper {
+    margin: 0 calc(50% - 320px);
+  }
+}
+
+@media screen and (max-width: 888px) {
+  footer .section-wrapper .contact-info {
+    width: 349px;
+  }
+  footer .section-wrapper .contact-info p {
+    float: none;
+    border: none;
+    padding: 0;
+    padding-bottom: 10px;
+    margin: 0 auto;
+  }
+  footer .section-wrapper .contact-info p.name {
+    width: 123px;
+  }
+  footer .section-wrapper .contact-info p.address {
+    width: 296px;
+  }
+  footer .section-wrapper .contact-info p.phone {
+    width: 156px;
+  }
+  footer .section-wrapper .contact-info p.fax {
+    width: 109px;
+  }
 }
 /*# sourceMappingURL=index.css.map */
