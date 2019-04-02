@@ -1219,7 +1219,8 @@ footer button p {
     float: none;
     display: block;
     width: 89%;
-    margin: 0 auto;
+    height: unset;
+    margin: 0 auto 30px;
   }
   section.banners > .section-wrapper #main-banner-product h1 {
     font-size: 12.5vw;
@@ -1237,6 +1238,7 @@ footer button p {
   section.banners > .section-wrapper #main-banner-product .badge p.badge-text {
     font-size: 16px;
     width: 17vw;
+    padding-top: 8%;
   }
   section.banners > .section-wrapper #main-banner-product p.subscript {
     top: 63vw;

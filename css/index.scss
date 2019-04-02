@@ -1230,7 +1230,8 @@ footer  {
         float:none;
         display: block;
         width: 89%;
-        margin: 0 auto;
+        height: unset;
+        margin: 0 auto 30px;
 
         h1 {
           font-size: 12.5vw;
@@ -1248,6 +1249,7 @@ footer  {
           p.badge-text {
             font-size: 16px;
             width: 17vw;
+            padding-top: 8%;
           }
         }
 
@@ -1257,7 +1259,5 @@ footer  {
 
       }
     }
-    
   }
-
 }
