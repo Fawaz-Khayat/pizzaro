@@ -1222,7 +1222,42 @@ footer  {
     }
   }
 }
-@media screen and (max-width:630px) {
 
+@media screen and (max-width:640px) {
+  section.banners {
+    >.section-wrapper {
+      #main-banner-product {
+        float:none;
+        display: block;
+        width: 89%;
+        margin: 0 auto;
+
+        h1 {
+          font-size: 12.5vw;
+          top: 9.7vw;
+        }
+        h4 {
+          font-size: 6.6vw;
+          top: 20vw;
+        }
+        .badge {
+          top: 27.8vw;
+          width: 24.1%;
+          height: 9.7%;
+
+          p.badge-text {
+            font-size: 16px;
+            width: 17vw;
+          }
+        }
+
+        p.subscript {
+          top: 63vw;
+        }
+
+      }
+    }
+    
+  }
 
 }

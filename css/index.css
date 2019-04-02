@@ -1213,4 +1213,33 @@ footer button p {
     margin-bottom: 36px;
   }
 }
+
+@media screen and (max-width: 640px) {
+  section.banners > .section-wrapper #main-banner-product {
+    float: none;
+    display: block;
+    width: 89%;
+    margin: 0 auto;
+  }
+  section.banners > .section-wrapper #main-banner-product h1 {
+    font-size: 12.5vw;
+    top: 9.7vw;
+  }
+  section.banners > .section-wrapper #main-banner-product h4 {
+    font-size: 6.6vw;
+    top: 20vw;
+  }
+  section.banners > .section-wrapper #main-banner-product .badge {
+    top: 27.8vw;
+    width: 24.1%;
+    height: 9.7%;
+  }
+  section.banners > .section-wrapper #main-banner-product .badge p.badge-text {
+    font-size: 16px;
+    width: 17vw;
+  }
+  section.banners > .section-wrapper #main-banner-product p.subscript {
+    top: 63vw;
+  }
+}
 /*# sourceMappingURL=index.css.map */
