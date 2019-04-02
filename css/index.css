@@ -1199,4 +1199,18 @@ footer button p {
     width: 109px;
   }
 }
+
+@media screen and (max-width: 792px) {
+  section#products-tabs .section-wrapper > .content-wrapper {
+    width: 396px;
+    margin: 0 auto;
+  }
+  section#products-tabs .section-wrapper > .content-wrapper .product-tab {
+    margin: 0;
+  }
+  section#products-tabs .section-wrapper > .content-wrapper .product-tab:nth-of-type(odd), section#products-tabs .section-wrapper > .content-wrapper .product-tab:nth-of-type(even) {
+    margin: 0;
+    margin-bottom: 36px;
+  }
+}
 /*# sourceMappingURL=index.css.map */

@@ -1202,7 +1202,25 @@ footer  {
 }
 
 @media screen and (max-width:792px) {
+  section#products-tabs {
+    .section-wrapper {
+      >.content-wrapper {
+        width:396px;
+        margin:0 auto;
 
+        .product-tab {
+          margin:0;
+
+          &:nth-of-type(odd),
+          &:nth-of-type(even) {
+            margin:0;
+            margin-bottom: 36px;
+          }
+        }
+      }
+      
+    }
+  }
 }
 @media screen and (max-width:630px) {
 
