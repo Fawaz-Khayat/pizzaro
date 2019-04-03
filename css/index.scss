@@ -1225,6 +1225,7 @@ footer  {
 
 @media screen and (max-width:640px) {
   section.banners {
+    height: unset;
     >.section-wrapper {
       #main-banner-product {
         float:none;
@@ -1257,6 +1258,35 @@ footer  {
           top: 63vw;
         }
 
+      }
+
+      #upper-left-banner-product,
+      #upper-right-banner-product {
+
+        float: none;
+        margin: 0 auto 36px;
+      }
+
+      #bottom-banner-product {
+
+        float: none;
+        width:89%;
+        height: unset;
+        margin: 0 auto;
+
+        >img {
+
+        }
+        >h2 {
+          font-size: 10.7vw;
+          top: 10.8vw;
+          left: 38.29vw;
+        }
+        >h5 {
+          font-size: 5.63vw;
+          top: 10.32vw;
+          left: 22.82vw;
+        }
       }
     }
   }
