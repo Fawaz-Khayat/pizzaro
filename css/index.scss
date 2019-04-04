@@ -1224,6 +1224,21 @@ footer  {
 }
 
 @media screen and (max-width:640px) {
+  nav#food-menu {
+    >.section-wrapper {
+      background-image: url($images-dir + "/hamburger_menu_white.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      ul {
+        display: none;
+        li {
+          float: none;
+        }
+      }
+    }
+  }
+
   section.banners {
     height: unset;
     >.section-wrapper {
@@ -1290,4 +1305,41 @@ footer  {
       }
     }
   }
+
+  section.insta-gallery {
+    .section-wrapper {
+      width: 100%;
+      margin:0;
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width:575px) {
+  section#great-with {
+    height: unset;
+    padding:0;
+    .section-wrapper {
+      #great-with-products {
+        width:unset;
+        .great-with-product {
+          float: none;
+
+          &:nth-of-type(odd),
+          &:nth-of-type(even) {
+            margin:0 auto 73px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:500px) {
+
+}
+@media screen and (max-width:400px) {
+  
 }
